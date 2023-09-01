@@ -1,0 +1,98 @@
+/* for mobile */
+@media screen and (max-width:460px)  {
+    body{
+        width: 100%;
+    }
+    .first-sec{
+        padding: 10px;
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .first-sec p {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .first-sec h1 {
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    .first-sec p:nth-child(3) {
+        width: 100%;
+        font-weight: 470;
+        font-size: 19px;
+    }
+    .second-sec {
+        width: 100%;
+        padding: 20px;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
+        box-sizing: border-box;
+        padding-top: 60px;
+    }
+    .second-right {
+        box-sizing: border-box;
+        width: 100%;
+        /* padding: 20px; */
+    }
+    .second-left {
+        width: 100%;
+        padding: 0px;
+        padding-left: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .second-left h1 {
+        font-size: 32px;
+    }
+    .second-left p {
+        font-size: 19px;
+    }
+    .second-sec-lower {
+        padding-top: 20px;
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .second-sec-lower a {
+        width: 55%;
+    }
+    .second-sec-lower .createResume {
+        width: 100%;
+        /* font-size: 11px; */
+        padding: 2px;
+        height: 65px;
+    }
+    .second-sec-lower .watchVideo {
+        width: 54%;
+        height: 65px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+    .third-content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .third-sec-col-1, .third-sec-col-2, .third-sec-col-3 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .third-sec {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
